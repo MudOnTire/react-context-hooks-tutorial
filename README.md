@@ -12,3 +12,16 @@ Hooks增强了函数式组件（functional component）的能力，使其具备�
 
 当context和hooks结合使用时会产生更强大的功能，类似redux那样的状态管理能力，而又不需要依赖任何第三方库。
 
+# Hooks
+
+## `useState()`
+
+在function component中使用 `state`
+
+## `useEffect()`
+
+在component render或者re-render的时候执行一段代码
+
+## `useContext()`
+
+在function component中使用 `context`
