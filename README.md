@@ -20,8 +20,16 @@ Hooks增强了函数式组件（functional component）的能力，使其具备�
 
 ## `useEffect()`
 
-在component render或者re-render的时候执行一段代码
+在component render或者re-render的时候执行一个方法，该方法允许有副作用
 
 ## `useContext()`
 
 在function component中使用 `context`
+
+## `userReducer()`
+
+`useState`的升级版，和redux的reducer类似
+
+## `useCallback()`
+
+返回一个memoized的callback。

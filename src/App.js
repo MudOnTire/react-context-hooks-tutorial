@@ -1,20 +1,13 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import BookList from './components/BookList';
-import ThemeToggle from './components/ThemeToggle';
-import ThemeContextProvider from './contexts/ThemeContext';
-import AuthContextProvider from './contexts/AuthContext';
+import Hooks from './Hooks';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <ThemeContextProvider>
-        <AuthContextProvider>
-          <Navbar />
-          <BookList />
-          <ThemeToggle />
-        </AuthContextProvider>
-      </ThemeContextProvider>
+      <Router>
+        <Hooks />
+      </Router>
     </div>
   );
 }
