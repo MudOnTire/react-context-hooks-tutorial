@@ -1,5 +1,5 @@
 import React from 'react';
-import Hooks from './Hooks';
+import Hooks from './hooks';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
